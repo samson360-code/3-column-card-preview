@@ -33,10 +33,10 @@
             overflow: hidden;
             max-width: 900px;
             display: flex;
-            justify-content:center;
+            justify-content: center;
             flex-direction: row;
             margin: auto 0;
-            background-color: aqua;
+            /* background-color: aqua; */
         }
 
         section>div {
@@ -46,7 +46,7 @@
             gap: 3rem;
             color: rgba(255, 255, 255, 1);
             font-size: 11px;
-            align-items:flex-start;
+            align-items: flex-start;
             justify-content: left;
             /* filter: blur(0.7px); */
             padding: 2rem 5rem 2rem 2rem;
@@ -55,19 +55,20 @@
         div>p {
             font-size: 1rem;
         }
+
         div>h1 {
             text-transform: uppercase;
             font-size: xx-large;
             font-weight: 700;
-            
+
         }
-   
+
         button {
             margin-top: 2rem;
             padding: 5% 20%;
             border: 1px solid white;
             border-radius: 34px;
-            font-size:1rem;
+            font-size: 1rem;
         }
 
         section>div:first-child {
@@ -89,8 +90,16 @@
         }
 
         @media (max-width:920px) {
+  
+
             section {
                 flex-direction: column;
+                margin: 5rem 2rem;
+
+            }
+
+            main {
+                height: auto;
             }
 
             div>p {
